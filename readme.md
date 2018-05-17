@@ -1,7 +1,7 @@
 # Polloard's rho attack on Elliptic curve
 Given P, a point on ellpitic curve,
 we could find k such that kG=P, where G is base point of ellpitic curve
-The complexity of algorithm takes O( $\sqrt{n}$ ) time.
+The complexity of algorithm takes $$O(\sqrt{n})$$ time.
 We have define 32,36,40,44,48,52,56 bits order of ellpitic curve,
 
 ### Execution
