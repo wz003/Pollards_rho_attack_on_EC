@@ -1,9 +1,8 @@
 # Polloard's rho attack on Elliptic curve
-Given P, a point on ellpitic curve,
-we could find k such that kG=P, where G is base point of ellpitic curve
-The complexity of algorithm takes $$O(\sqrt{n})$$ time.
-We have define 32,36,40,44,48,52,56 bits order of ellpitic curve,
-
+Given P, a point on ellpitic curve(EC),
+we could find k such that kG=P, where G is base point of EC
+The complexity of algorithm takes $$O( \sqrt{n} )$$ time, where n is order of EC
+We have define 32,36,40,44,48,52,56 bits order of EC,
 ### Execution
 After installing the required package, you can simply excute as following: 
 Usage: python pollards_rho_attack.py select_bits iterations
